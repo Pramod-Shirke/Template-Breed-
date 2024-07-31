@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./.css/contact-style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white ms-5" href="#">Breed</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Breed
+                        </a>
+                        <ul class="dropdown-menu bg-info">
+                            <li><a class="dropdown-item text-red" href="#">Action</a></li>
+                            <li><a class="dropdown-item text-red" href="#">Another action</a></li>
+                            <li><a class="dropdown-item text-red" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active img2">
+                    <div class="center">
+                        <div class="col-md-6 col-lg-6 home-info">
+                            <h1 class="heading">Contact</h1>
+                            <p class="mt-3 home-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                consectetur,
+                                ipsam hic atomnis, repellat ea eveniet officiis saepe vel ducimus
+                                officia temporibus maiores architecto
+                            </p>
+                            <div class="d-flex justify-content-center align-item-center mt-5">
+                                <button type="button" class="btn btn-outline-light  me-3  ">EXPLORE</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item img1">
+                    <div class="center">
+                        <div class="col-md-6 col-lg-6  home-info">
+                            <h1 class="heading">Care For Dogs</h1>
+                            <p class="mt-3 home-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consectetur
+                                reprehenderit similique
+                                doloribus asperiores odit nesciunt, omnis, repellat ea eveniet officiis saepe vel
+                                ducimus
+                                officia temporibus maiores architecto, aut quod modi..</p>
+                            <div class="d-flex justify-content-center align-item-center mt-5">
+                                <button type="button" class="btn btn-outline-light  me-3  ">Get Started</button>
+                                <button type="button" class="btn btn-outline-light  ">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 mb-5 order-2">
+                    <form action="" method="post">
+                        <div class="row d-flex mt-5">
+                            <div class="row col-md-6 px-5">
+                                <label for=" name"> Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Enter User Name">
+
+                            </div>
+
+                            <div class="row col-md-6  px-4">
+                                <label for=" phone"> Phone</label>
+                                <input type="text" id="phone" class="form-control" placeholder="Enter Mobile Number">
+
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="row col-md-12 px-5">
+                                <label for=" Email"> Email</label>
+                                <input type="text" id="name" class="form-control " placeholder="@gmail.com">
+
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="row col-md-12 px-5">
+                                <label for=" Email"> Write Message </label>
+                                <textarea name="message " id="message" class="form-control" cols="30" rows="8"
+                                    placeholder="Enter Your Message"></textarea>
+
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="row col-md-6 px-5">
+
+                                <input type="submit" value="Send message" class="btn btn-warning text-white"
+                                    placeholder="@gmail.com">
+
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="col-md-6 order-2 mb-5 mt-5">
+                    <div class="row justify-content-right">
+                        <div class="col-8 mx-auto contact-form-contact-info">
+                            <p class="d-flex mb-5">
+                                <span><i class="bi bi-geo-alt text-warning"></i></span>
+                                <span class="ms-5">34 Street Name, City Name Here, United States</span>
+                            </p>
+                            <p class="d-flex mb-5">
+                                <span><i class="bi bi-telephone-fill text-warning"></i></span>
+                                <span class="ms-5">+1 242 4942 290</span>
+                            </p>
+                            <p class="d-flex mb-5">
+                                <span><i class="bi bi-envelope-fill text-warning"></i></span>
+                                <span class="ms-5">info@yourdomain.com</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-light">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 justify-content-center text-center mt-5">
+                    <h2>Testimonial</h2>
+                    <p class="text-body-tertiary my-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis esse harum neque asperiores
+                        molestias accusamus debitis, sit quidem molestiae a tenetur? Repellat modi voluptatem sint
+                        animi, earum maiores assumenda architecto.
+                    </p>
+                </div>
+
+                <div class="row justify-content-center mb-5 owner">
+                    <div class="col-sm-12 col-md-6 col-lg-4  text-center mb-5">
+                      <div class="card bg-white card-content" style="width: 18rem;">
+                        <img src="./images/person_1.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3 class="card-text mb-3">Mike Richard says...</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora repudiandae veritatis, itaque aut est voluptate corporis minima laboriosam nobis tempore facilis aliquam dolorum corrupti, asperiores maiores ut veniam qui non?</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4  text-center mb-5">
+                      <div class="card bg-white card-content" style="width: 18rem;">
+                        <img src="./images/person_2.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3 class="card-text mb-3">Laura Smith says...</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora repudiandae veritatis, itaque aut est voluptate corporis minima laboriosam nobis tempore facilis aliquam dolorum corrupti, asperiores maiores ut veniam qui non?</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-sm-12 col-lg-4 d-md-none d-lg-block text-center mb-5">
+                      <div class="card bg-white  card-content " style="width: 18rem; ">
+                        <img src="./images/person_3.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3 class="card-text mb-3">Charles White says...</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora repudiandae veritatis, itaque aut est voluptate corporis minima laboriosam nobis tempore facilis aliquam dolorum corrupti, asperiores maiores ut veniam qui non?</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer bg-dark">
+        <div class="container">
+          <div class="  row mt-5 justify-content-center">
+            <div class="col-sm-12 col-md-4  my-5">
+              <h3 class="text-white">About The Breed</h3><br>
+              <p class="text-white mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus odit atque
+                molestias dolores asperiores, suscipit corporis similique incidunt illo, voluptatem quam reiciendis alias
+                quasi voluptate sint fugiat iste possimus expedita!</p>
+              <div>
+                <ul class="d-flex">
+                  <li><a href="" class="text-warning ms-4"><i class="bi bi-twitter"></i></a></li>
+                  <li><a href="" class="text-warning ms-4"><i class="bi bi-linkedin"></i></a></li>
+                  <li><a href="" class="text-warning ms-4"><i class="bi bi-facebook"></i></a></li>
+                  <li><a href="" class="text-warning ms-4"><i class="bi bi-instagram"></i></a></li>
+                  <li><a href="" class="text-warning ms-4"><i class="bi bi-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 my-5">
+              <h3 class="text-white">Contact Info</h3><br>
+              <span class="text-white">Address</span>
+              <p class="text-white">34 Street Name, City Name Here, United States</p>
+              <span class="text-white">Telephone:</span>
+              <p class="text-white">+1 242 4942 290</p>
+              <span class="text-white">
+                Email:
+              </span>
+              <p class="text-white">info@yourdomain.com</p>
+    
+            </div>
+            <div class="col-sm-12 col-md-3 my-5">
+              <h3 class="text-white">
+                Quick links
+              </h3><br>
+              <ul class="footer-list">
+                <li><a href="" class="text-white">About</a></li>
+                <li><a href="" class="text-white">Terms of Uses</a></li>
+                <li><a href="" class="text-white">Disclaimers</a></li>
+                <li><a href="" class="text-white">Contact</a></li>
+              </ul>
+    
+            </div>
+    
+          </div>
+          <div class="row  justify-content-center">
+            <div class="col-8 justify-content-center text-center my-5">
+              <p class="text-white align-item-center">Copyright ©2024 All rights reserved | This template is made with <i
+                  class="bi bi-heart-fill  text-warning"></i> by</p>
+            </div>
+    
+    
+          </div>
+        </div>
+      </section>
